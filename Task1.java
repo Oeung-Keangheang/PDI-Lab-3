@@ -7,6 +7,7 @@ public class Task1 {
 		int book;
 		System.out.print("Input the amount of books: ");
 		book = sc.nextInt();
+		sc.nextLine();
 		String[][] library = new String[book][4];
         for (int i = 0; i < book; i++) {
             System.out.println("\n--- Enter details for Book " + (i + 1) );            
